@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<head>
+	<title>Welcome Arvind</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.header{
+			background-color: #1abc9c;
+			display: block;
+			overflow: hidden;
+		}
+		
+		.header_text{
+			display: inline-block;
+			float: right;
+			color: white;
+			font-size: x-large;
+			padding: 10px;
+			margin: 25px 15px;
+		}
+		.header_para{
+			margin-bottom: 0px;
+			float: right;
+			font-family: 'Indie Flower', cursive;
+		}
+		
+		.header_image{
+			float: left;
+			margin: 0px
+			padding: 0px;
+		}
+		/*.header:after{
+			content: "";
+			visibility: hidden;
+		display: block;
+		}*/
+
+		ul{
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+			background-color: #333333;
+		}
+		li {
+			float: right;
+			padding: 2px;
+			
+		}
+		li a{
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+			font-size: x-large;
+		}
+		li a:hover{
+			background-color: #111111;
+		}
+
+		/*    -------------------------------    Form -----------------------------------------         */
+
+
+		*{box-sizing: border-box;
+	}
+
+	input[type=text]{
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccd;	
+	}
+	input[type=password]{
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccd;	
+	}
+
+	label{
+		padding: 12px 12px 12px 0;
+		display: inline-block;
+	}
+
+	input[type=submit]{
+		background-color: #4CAF50;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		margin: 2px;
+		border-radius: 4px;
+		float: right;
+	}
+
+	.col-251{
+		float:left;
+		width:25%;
+		margin-top: 6px;
+	}
+
+	.col-751{
+		float:left;
+		width:25%;
+		margin-top: 6px;
+	}
+
+
+	.col-25{
+		float: left;
+		width: 25%;
+		margin-top: 6px;
+	}
+
+	.col-75{
+		float: left;
+		width: 75%;
+		margin-top: 6px;
+	}
+
+	
+
+	.row:after
+	{
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.container{
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+	}
+
+	
+
+	.heading_of_form{
+		text-align: center;
+		font-size: x-large;		
+	}
+
+
+	.column{
+		float: left;
+		text-align: center;
+		width: 33%;
+		background-color:#D8BFD8;
+		padding: 10px;
+		font-size: x-large;
+		font-family: 'Indie Flower', cursive;
+		
+	}
+
+	.column1{
+		float: left;
+		text-align: center;
+		width: 33%;
+		background-color:#FFB6C1;
+		padding: 10px;
+		font-size: x-large;
+		font-family: 'Indie Flower', cursive;
+		
+	}
+
+	.column2{
+		float: left;
+		text-align: center;
+		width: 33%;
+		background-color:#F0F8FF;
+
+		padding: 10px;
+		font-size: x-large;
+		font-family: 'Indie Flower', cursive;
+	}
+
+	.images{
+		margin: 50px 0px;
+		order: 1px solid #ccc;
+		float: left;
+		width: auto;
+		height: auto;
+	}
+
+	.desc {
+	  padding: 15px;
+	  text-align: center;
+	}
+
+	.images:hover {
+	  border: 1px solid #777;
+	}
+
+	.footer{
+		border-radius: 5px;
+		text-align: center;
+		background-color: #f2f2f2;
+		padding: 20px;
+		font-size: medium;
+	}
+
+
+		/*    -------------------------------    Form -----------------------------------------         */
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="header_image">
+		<img src="minion1.jpg" alt="minion1" width="200px" height="200px">
+		</div>
+		<div class="header_text">
+		<h1>Welcome To Minions World</h1>
+		<div class="header_para">
+		<p>We are ready to come with you</p>
+		</div>
+		</div>
+	</div>
+	
+	<ul>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Shop</a></li>
+		<li><a href="#">Find us</a></li>
+		<li><a href="#">Minions</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="#">Buy</a></li>
+	</ul>
+</div>
+<!-- <dl>
+	<dt>Cofee</dt>
+	<dd>- black hot drink</dd>
+	<dt>Milk</dt>
+	<dd>- white cold milk</dd>
+</dl> -->
+
+<!---------------------------------------Form --------------------------------------------->
+
+<div class="container">
+<p class="heading_of_form">Create Your Account</p>
+	
+	<form>
+
+		<div class="row">
+		<div class="col-251">
+		<label for="fname">Name</label>
+		</div>
+		<div class="col-751">
+		<input type="text" id="fname" name="Name"><br>
+		</div>
+		</div>
+
+
+		
+
+		
+
+		<div class="row">
+		<div class="col-25">
+		<label for="fname">Enter Email/Mobile Number</label>
+		</div>
+		<div class="col-75">
+		<input type="text" id="fname" name="Email"><br>
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-25">
+		<label for="lname">Password</label>
+		</div>
+		<div class="col-75 password">
+		<input type="password" id="lname" name="Password"
+		><br>
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-25">
+		<label for="lname">Confirm Password*</label>
+		</div>
+		<div class="col-75 password">
+		<input type="password" id="lname" name="Password"
+		><br>
+		</div>
+		</div>
+
+
+		<div class="row">
+		<input type="submit" name="Register" value="Register">
+		</div>
+	</form>
+
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <h2>Know About Us</h2>
+    <p>Minions is a 2015 American 3D computer-animated comedy film, serving as a spin-off prequel to the Despicable Me franchise. Produced by Illumination Entertainment for Universal Pictures, it was directed by Pierre Coffin and Kyle Balda, and produced by Chris Meledandri and Janet Healy.</p>
+  </div>
+  
+  <div class="column1">
+    <h2>Who Created Us</h2>
+    <p>The Flying Monkeys never got their own movie. Nor did the Imperial Stormtroopers. Nor did Rosa Klebb, Oddjob, or Jaws—the Moonrakersidekick, not the shark. You know who did get their own movie? The Minions, which, by Hollywood law, makes them the greatest movie henchmen of all time.</p>
+  </div>
+  
+  <div class="column2">
+    <h2>Read Me</h2>
+    <p>The Minions are small, yellow henchmen shaped like pill capsules. They are depicted as being roughly one-third to one-half the height of humans but they were later revealed. They have one or two eyes, and their irises are almost always brown (except for Bob, who has one green and one brown eye).</p>
+  </div>
+</div>
+
+<!------------------------------------------------------------------------------->
+<!-- <div class="row">
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div> -->
+
+</div>
+
+<!----------------------------------------------------------------------------->
+
+<div class="row">
+	<div class="images">
+	
+	<img src="minion1.jpg" alt="minions image" width="440" height="400">
+	<div class="desc"><B>I AM MINION 1</B></div>
+	</div>
+	<div class="images">
+	
+	<img src="minion2.jpg" alt="minions image" width="440" height="400">
+	<div class="desc"><B>I AM MINION 2</B></div>
+	</div>
+	<div class="images">
+	
+	<img src="minion3.jpg" alt="minions image" width="440" height="400">
+	<div class="desc"><B>I AM MINION 3</B></div>
+	</div>
+</div>
+
+
+
+<div class="row">
+<footer class="footer">
+	
+  <p><B>© 2020 Arvind Singh. All Rights Reserved</B></p>
+  <p><center>This website is designed and maintained under Arvind Singh</center>
+
+</footer>
+
+</div>
+
+
+
+<!---------------------------------------------------------------------------------->
+
+
+
+
+</body>
+</html>
